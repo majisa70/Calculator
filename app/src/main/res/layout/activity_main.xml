@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/stu_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/stu_id_num"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/num1" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/num1_input"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/Num2" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/num2_input"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="@string/minus" />
+
+    <Button
+        android:id="@+id/times"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:text="@string/times" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="@string/divide" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/result"
+        android:visibility="gone" />
+
+</LinearLayout>
+</layout>

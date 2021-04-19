@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="stu_id_num">610921310</string>
+    <string name="num1">"num1 = "</string>
+    <string name="num1_input">Enter Num 1</string>
+    <string name="Num2">Num 2 =</string>
+    <string name="num2_input">Enter Num2</string>
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string name="times">*</string>
+    <string name="divide">/</string>
+    <string name="result">Result =</string>
+    <string name="result_value">Result</string>
+</resources>
